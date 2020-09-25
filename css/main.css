@@ -95,7 +95,7 @@ footer{
     padding: 40px;
     text-align: center;
 }
-.page-area section {
+.container section {
     display: inline-block;
     width: 100%;
     max-width: 340px;
@@ -103,7 +103,7 @@ footer{
     margin: 20px;
 }
 
-.page-area section p{
+.container section p{
     line-height: 1.5;
 }
 
