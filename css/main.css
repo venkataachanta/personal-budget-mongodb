@@ -66,16 +66,16 @@ nav ul li a:hover  {
     color: #4d5791;
 }
 
-article .container {
+.container {
     padding: 40px;
     width: 100%;
     text-align: center;
 }
 
-article .page-area {
+.page-area {
     max-width: 768px;
     display: inline-block;
-    
+    text-align: center;
 }
 
 /*
