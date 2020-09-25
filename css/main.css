@@ -95,15 +95,16 @@ footer{
     padding: 40px;
     text-align: center;
 }
-.container section {
+.page-area section {
     display: inline-block;
     width: 100%;
     max-width: 340px;
     text-align: justify;
     margin: 20px;
+
 }
 
-.container section p{
+.page-area section p{
     line-height: 1.5;
 }
 
