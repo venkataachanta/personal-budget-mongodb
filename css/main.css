@@ -94,7 +94,7 @@ footer{
     padding: 40px;
     text-align: center;
 }
-.container div.text-box {
+.container section {
     display: inline-block;
     width: 100%;
     max-width: 340px;
@@ -103,7 +103,7 @@ footer{
 }
 
 @media screen and (min-width: 768px) {
-    .container .div.text-box {
+    .container section {
         margin: 10px;
     }
 }
