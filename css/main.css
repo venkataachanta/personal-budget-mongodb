@@ -40,7 +40,7 @@ nav ul li a:hover  {
     color: #4d5791;
 }
 
-.hero {
+.div.hero {
     height: 350px;
     background-color: #b4c6f0;
     background-image: url('../css/bg.png'); 
@@ -50,19 +50,19 @@ nav ul li a:hover  {
     padding-top: 40px;
 }
 
-.hero h1,
-.hero h2 {
+.div.hero h1,
+.div.hero h2 {
     text-align: center;
     margin: 0;
 }
 
-.hero h1 {
+.div.hero h1 {
     color: #fff;
     font-size: 4.2em;
     margin-bottom: 20px;
 }
 
-.hero h2 {
+.div.hero h2 {
     color: #4d5791;
 }
 
