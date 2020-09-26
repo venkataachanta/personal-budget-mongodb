@@ -78,15 +78,17 @@ nav ul li a:hover  {
     text-align: center;
 }
 
+.center {
+    text-align: center;
+}
+
 /*
 .bottom {
     height: 50px;
     background-color: #b4c6f0;
     padding: 40px;
 }
-.center {
-    text-align: center;
-}
+
 */
 
 footer{
