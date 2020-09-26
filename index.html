@@ -10,31 +10,33 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <!--This is a semantic element change
-    <div class="menu"-->
+    <!--This is a semantic element change-->
     <header>
         <nav>
             <ul>
-                <li><a href="./">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="https://google.com">Google</a></li>
+                <!--This is an A11y change-->
+                <li><a role = "button" href="./">Home</a></li>
+                <li><a role = "button" href="about.html">About</a></li>
+                <li><a role = "button" href="login.html">Login</a></li>
+                <li><a role = "button" href="https://google.com">Google</a></li>
             </ul>
         <!--</div>-->
         </nav>
     </header>
-
+    <!--This is a semantic element *replacing div with article-->
     <article class = "hero">
             <h1>Personal Budget</h1>
             <h2>A personal-budget management app</h2>
     </article>
 
+    <!--This is a semantic element *replacing div with container center, page-area-->
     <article class = "container center">
         <article class="page-area">
     <!--div class="container center"-->
         <!--div class="page-area"-->
             <section class="paragraph-box">
                 <h1>Stay on track</h1>
+                <!--This is -->
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
