@@ -3,48 +3,12 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-app.use(cors());
+app.use('/', express.static('public'));
 
-const budget = {
-    myBudget: 
-    [
-        {
-            title:'Eat out',
-            budget: 50
-        },
-        {   
-            title:'Rent',
-            budget: 675
-        },
-        {
-            title:'Grocery',
-            budget: 110
-        },
-        {
-            title:'Clothing',
-            budget: 75
-        },
-        {
-            title:'Loans',
-            budget: 1000
-        },
-        {
-            title:'Credit Card Bills',
-            budget: 200
-        },
-        {
-            title: 'Gas',
-            budget: 300
-        },
-        {
-            title:'Savings', 
-            budget: 500
-        },
-    ]
-};
+const newlocation = require('./manifest.json');
 
 app.get('/budget', (req, res) => {
-    res.json(budget);
+    res.json(newlocation);
 });
 
 app.listen(port, () => {
